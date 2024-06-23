@@ -1,0 +1,232 @@
+# -*- mode: org; coding: utf-8; -*-
+#+startup: content
+#+title: De tocho morocho!
+#+author: BxCx
+#+language: es
+#+hugo_auto_set_lastmod: nil
+#+hugo_base_dir: ~/codelab/blog
+#+hugo_section: /posts
+#+seq_todo: BORRADOR TERMINADO | PUBLICADO
+
+
+* BxCx Blog
+** Blog                                                           :@Blog:
+*** PUBLICADO Bienvenida                           :blog:general:
+CLOSED: [2024-06-22 Sat 14:33]
+:properties:
+:export_file_name: 2024-05-01-bienvenida
+:export_date: 2024-05-01
+:end:
+Hola, bienvenidos a mi blog!
+Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que esta se la definitiva.
+*** BORRADOR Preparando Emacs, Org-Mode y Hugo para este blog :emacs:hugo:orgmode:blog:blog:
+:properties:
+:export_file_name: 2024-05-03-preparar-emacs-orgmode-hugo-blog
+:export_date: 2024-05-03
+:end:
+
+He tenido esa idea loca de escribir en Emacs y crear un blog. La ociosidad es la madre de todos los vicios, así que
+vamos por ello.
+
+Tengo dos laptops, una MackBook Pro de mediados del 2012, y una Lenovo. Ambos equipos me han salido muy buenos, así que
+la idea es poder escribir en ambos equipos y tener sincronizados los archivos.
+
+**** ¿Cómo lo haremos?
+
+Los artículos están escritos en Emacs utilizando org-mode para su redacción y ox-hugo como exportador markdown compatible con Hugo que es el encargado de generar el sitio.
+
+En el momento de escribir esta publicación el software utilizado para la creación del blog es:
+
+Versión de Emacs:
+#+begin_src bash
+$ emacs --version
+
+GNU Emacs 29.3
+Copyright (C) 2024 Free Software Foundation, Inc.
+GNU Emacs comes with ABSOLUTELY NO WARRANTY.
+You may redistribute copies of GNU Emacs
+under the terms of the GNU General Public License.
+For more information about these matters, see the file named COPYING.
+#+end_src
+
+Versión de Org:
+#+begin_src emacs-lisp
+M-x org-version
+
+Org mode version 9.6.15 (release_9.6.15 @ /usr/local/Cellar/emacs-plus@29/29.3/share/emacs/29.3/lisp/org/)
+#+end_src
+
+Versión de ox-hugo:
+#+begin_src emacs-lisp
+M-x ox-hugo
+
+Version: 20240305.1923
+Commit:  c4156d9d383bf97853ba9e16271b7c4d5e697f49
+Summary: Hugo Markdown Back-End for Org Export Engine
+#+end_src
+
+#+begin_src bash
+$ hugo version
+
+hugo v0.127.0+extended darwin/amd64 BuildDate=2024-06-05T10:27:59Z VendorInfo=brew
+#+end_src
+
+Todo el contenido, una vez exportado, va a dar al directorio:
+=~/codelab/blog/content/posts/=
+
+**** Estructura del proyecto
+
+#+begin_src emacs-lisp
+.
+├── archetypes
+├── assets
+├── content
+│   └── posts
+├── data
+├── i18n
+├── layouts
+├── public
+├── resources
+│   └── _gen
+├── static
+└── themes
+    └── hugo-ficurinia
+#+end_src
+
+**** Configurando el archivo org.
+En mi caso, todo el proyecto está en la ruta =/home/bxcx/codelab/blog/=, por lo que ahí coloqué el archivo blog.org.
+Al inicio de dicho archivo coloqué las siguientes propiedades:
+
+#+begin_src emacs-lisp
+# -*- mode: org; coding: utf-8; -*-
+#+startup: content
+#+title: De tocho morocho!
+#+author: BxCx
+#+language: es
+#+hugo_auto_set_lastmod: nil
+#+hugo_base_dir: ~/codelab/blog
+#+hugo_section: /posts
+#+seq_todo: BORRADOR TERMINADO | PUBLICADO
+#+end_src
+
+Donde:
+#+begin_src emacs-lisp
+# -*- mode: org; coding: utf-8; -*-
+La codificación a utilizar es UTF-8.
+
+#+startup: content
+Emacs sólo mostrará los encabezados y subtítulos. El contenido estará disponible cuando se
+presione la tecla TAB sobre el encabezado.
+
+#+title: De tocho morocho! El título que mostrará el blog (aunque yo lo configuro en el hugo.toml).
+
+#+author: BxCx
+Nombre del autor del blog.
+
+#+language: es
+El idioma a utilizar para traducir ciertas cadenas.
+
+#+hugo_auto_set_lastmod: nil
+Nombre se añade la hora y fecha de modificación al exportar el archivo.
+
+#+hugo_section: /posts
+Este es el directorio en donde ox-hugo exportará los archivos markdown.
+
+#+hugo_base_dir: ~/codelab/blog
+Directorio raíz del sitio.
+
+#+todo: BORRADOR | PUBLICADO
+Estados disponibles para los encabezados de las publicaciones:
+- BORRADOR: En proceso de redacción.
+- TERMINADO: Listo para ser publicado.
+- PUBLICADO: Publicado en el blog.
+#+end_src
+
+**** Creando una página
+
+Mi archivo blog.org está definido por categorías. Puedes agregar las que necesites.
+
+Cuando creas un encabezad Cada publicación creada dentro de cada encabezado hereda su categoría (@)
+
+#+begin_src emacs-lisp
+ ** Blog                                                              :@blog:
+ ** Emacs                                                             :@emacs:
+ ** Linux                                                             :@linux:
+ ** MacOS                                                             :@macos:
+ ** Math                                                              :@math:
+ ** Programming                                                       :@programming:
+ ** Rust                                                              :@rust:
+#+end_src
+
+Para crear una nueva publicación creo un nuevo encabezado con sus respectivas etiquetas para poder ser relacionadas con otras publicaciones
+
+#+begin_src emacs-lisp
+# -*- mode: org; coding: utf-8; -*-
+#+startup: content
+#+title: De tocho morocho!
+#+author: BxCx
+#+language: es
+#+hugo_auto_set_lastmod: nil
+#+hugo_base_dir: ~/codelab/blog
+#+hugo_section: /posts
+#+seq_todo: BORRADOR TERMINADO | PUBLICADO
+
+ * BxCx Blog
+ ** Blog                                                           :@Blog:
+ *** PUBLICADO Bienvenida                                          :blog:general:
+ *** BORRADOR Preparando Emacs, Org-Mode y Hugo para este blog :emacs:hugo:orgmode:blog:blog:
+#+end_src
+
+En mi caso, para cada publicación, es necesario añadir las siguientes propiedades:
+
+#+begin_src emacs-lisp
+:properties:
+  :export_file_name: 2024-05-01-bienvenida
+  :export_date: 2024-05-01
+:end:
+#+end_src
+
+Aunque, puedes añadir información adicional:
+#+begin_src emacs-lisp
+:properties:
+  :export_file_name: 2024-05-01-bienvenida
+  :export_hugo_custom_front_matter+: :image /images/2024/encabezados/art-bienvenida.png
+  :export_hugo_custom_front_matter+: :toc
+:END:
+#+end_src
+
+Donde:
+#+begin_src emacs-lisp
+:export_file_name: 2024-05-01-bienvenida
+Es el nombre final del archivo exportado.
+
+:export_hugo_custom_front_matter+: :image /images/2024/encabezados/art-bienvenida.png
+La ruta a la imagen que servirá de portada para el artículo.
+
+:export_hugo_custom_front_matter+: :toc
+Crea una lista de contenido al inico de la publicación
+ #+end_src
+
+** Emacs                                                            :@Emacs:
+*** BORRADOR Añandiendo texto al inicio y al final de varias líneas. :emacs:
+:properties:
+:export_file_name: 2024-05-02-regexp-comillas-inicio-y-fin
+:export_date: 2024-05-02
+:end:
+¡Tenía un problema! Debía agregar comillas dobles '"' al inicio y al final de 120 líneas diferentes, por lo que no
+debería ser una tarea manual. Para ello, tuve que utilizar las expresiones regulares (regexp).
+
+*/Para agregar texto al inicio de cada línea/*:
+- Si se hace en un buffer:
+
+    Presiona ~M-<~ para ir al establecer una marca al inicio.
+
+- Si se hace en una región:
+
+    Presiona  =C-SPC= al principio de la primera línea.
+
+- Por último: =M-x= replace-regexp RET ^ RET TuTexto RET"=, para agregar '*TuTexto*'.
+
+To do this to a region, use string-insert-rectangle. Set the mark (C-SPC) at the beginning of the first line you want to prefix, move the cursor to last line to be prefixed, and type M-x string-insert-rectangle RET. To do this for the whole buffer, type C-x h M-x string-insert-rectangle RET.
+
+If you are trying to prefix a yanked mail message with ‘>’, you might want to set the variable mail-yank-prefix. In Message buffers, you can even use M-; to cite yanked messages (M-; runs the function comment-region, it is a general-purpose mechanism to comment regions) (see How do I change the included text prefix in mail/news followups?).
