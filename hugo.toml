@@ -7,7 +7,7 @@ defaultContentLanguage = "es"
 # this will be included in the footer after the current year the site is last
 # built, followed by the (c) symbol
 # you can use markdown inside this field
-copyright = "BxCx - El contenido del sitio está bajo la licencia [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) · El código del sitio es de licencia MIT."
+# copyright = "BxCx - El contenido del sitio está bajo la licencia [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) · El código del sitio es de licencia MIT."
 
 paginate = 10  # number of articles per page in the index
 summaryLength = 70  # number of words for article summaries
