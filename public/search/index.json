@@ -12,6 +12,6 @@
         
         
     
-    "pages": [{"date":"2024-06-22","image":"","imageAlt":"","link":"https://th3bxcx.github.io/posts/2024-06-22-probando-github-pages/","summary":"Probando GitHub!","tags":["blog","github"],"text":"probando github!\n","title":"Probando github pages"},{"date":"2024-06-22","image":"","imageAlt":"","link":"https://th3bxcx.github.io/posts/2024-05-01-bienvenida/","summary":"Hola, bienvenidos a mi blog! Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que esta se la definitiva.","tags":["blog","general"],"text":"hola, bienvenidos a mi blog! sí, el nuevo. soy medio vago y seguido cambio de url y de contenido. espero que esta se la definitiva.\n","title":"Bienvenida"}]
+    "pages": [{"date":"2024-06-22","image":"","imageAlt":"","link":"http://localhost:1313/posts/2024-06-22-probando-github-pages/","summary":"Probando GitHub!","tags":["blog","github"],"text":"probando github!\n","title":"Probando github pages"},{"date":"2024-06-22","image":"","imageAlt":"","link":"http://localhost:1313/posts/2024-05-01-bienvenida/","summary":"Hola, bienvenidos a mi blog! Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que esta se la definitiva.","tags":["blog","general"],"text":"hola, bienvenidos a mi blog! sí, el nuevo. soy medio vago y seguido cambio de url y de contenido. espero que esta se la definitiva.\n","title":"Bienvenida"}]
 }
 

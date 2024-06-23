@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Posts on De tocho morocho!</title>
-    <link>https://th3bxcx.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on De tocho morocho!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Jun 2024 23:10:00 -0700</lastBuildDate><atom:link href="https://th3bxcx.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><icon>https://th3bxcx.github.io/logo.svg</icon>
+    <lastBuildDate>Sat, 22 Jun 2024 23:10:00 -0700</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
     
     
     <item>
       <title>Probando github pages</title>
-      <link>https://th3bxcx.github.io/posts/2024-06-22-probando-github-pages/</link>
+      <link>http://localhost:1313/posts/2024-06-22-probando-github-pages/</link>
       <pubDate>Sat, 22 Jun 2024 23:10:00 -0700</pubDate>
       
-      <guid>https://th3bxcx.github.io/posts/2024-06-22-probando-github-pages/</guid>
+      <guid>http://localhost:1313/posts/2024-06-22-probando-github-pages/</guid>
       <description><![CDATA[<p>Probando GitHub!</p>
 ]]></description>
       
@@ -23,10 +23,10 @@
     
     <item>
       <title>Bienvenida</title>
-      <link>https://th3bxcx.github.io/posts/2024-05-01-bienvenida/</link>
+      <link>http://localhost:1313/posts/2024-05-01-bienvenida/</link>
       <pubDate>Sat, 22 Jun 2024 14:33:00 -0700</pubDate>
       
-      <guid>https://th3bxcx.github.io/posts/2024-05-01-bienvenida/</guid>
+      <guid>http://localhost:1313/posts/2024-05-01-bienvenida/</guid>
       <description><![CDATA[<p>Hola, bienvenidos a mi blog!
 Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que esta se la definitiva.</p>
 ]]></description>
