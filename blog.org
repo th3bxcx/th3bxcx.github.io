@@ -22,8 +22,8 @@ Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que
 *** PUBLICADO Probando github pages                           :blog:github:
 CLOSED: [2024-06-22 Sat 23:10]
 :properties:
-:export_file_name: 2024-05-01-bienvenida
-:export_date: 2024-05-01
+:export_file_name: 2024-06-22-probando-github-pages
+:export_date: 2024-06-22
 :end:
 Probando GH!
 *** BORRADOR Preparando Emacs, Org-Mode y Hugo para este blog :emacs:hugo:orgmode:blog:blog:
