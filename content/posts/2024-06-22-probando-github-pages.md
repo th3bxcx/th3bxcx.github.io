@@ -7,4 +7,4 @@ categories = ["Blog"]
 draft = false
 +++
 
-Probando GH!
+Probando GitHub!

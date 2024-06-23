@@ -25,7 +25,7 @@ CLOSED: [2024-06-22 Sat 23:10]
 :export_file_name: 2024-06-22-probando-github-pages
 :export_date: 2024-06-22
 :end:
-Probando GH!
+Probando GitHub!
 *** BORRADOR Preparando Emacs, Org-Mode y Hugo para este blog :emacs:hugo:orgmode:blog:blog:
 :properties:
 :export_file_name: 2024-05-03-preparar-emacs-orgmode-hugo-blog
