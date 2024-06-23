@@ -19,6 +19,13 @@ CLOSED: [2024-06-22 Sat 14:33]
 :end:
 Hola, bienvenidos a mi blog!
 Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que esta se la definitiva.
+*** PUBLICADO Probando github pages                           :blog:github:
+CLOSED: [2024-06-22 Sat 23:10]
+:properties:
+:export_file_name: 2024-05-01-bienvenida
+:export_date: 2024-05-01
+:end:
+Probando GH!
 *** BORRADOR Preparando Emacs, Org-Mode y Hugo para este blog :emacs:hugo:orgmode:blog:blog:
 :properties:
 :export_file_name: 2024-05-03-preparar-emacs-orgmode-hugo-blog
