@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
-    <title>Blog on De tocho morocho!</title>
-    <link>https://th3bxcx.github.io/tags/blog/</link>
-    <description>Recent content in Blog on De tocho morocho!</description>
+    <title>General on De tocho morocho!</title>
+    <link>https://th3bxcx.github.io/tags/general/</link>
+    <description>Recent content in General on De tocho morocho!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Jun 2024 23:10:00 -0700</lastBuildDate><atom:link href="https://th3bxcx.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" /><icon>https://th3bxcx.github.io/logo.svg</icon>
-    
-    
-    <item>
-      <title>Probando github pages</title>
-      <link>https://th3bxcx.github.io/posts/2024-06-22-probando-github-pages/</link>
-      <pubDate>Sat, 22 Jun 2024 23:10:00 -0700</pubDate>
-      
-      <guid>https://th3bxcx.github.io/posts/2024-06-22-probando-github-pages/</guid>
-      <description><![CDATA[<p>Probando GH!</p>
-]]></description>
-      
-    </item>
-    
+    <lastBuildDate>Sat, 22 Jun 2024 14:33:00 -0700</lastBuildDate><atom:link href="https://th3bxcx.github.io/tags/general/index.xml" rel="self" type="application/rss+xml" /><icon>https://th3bxcx.github.io/logo.svg</icon>
     
     
     <item>
