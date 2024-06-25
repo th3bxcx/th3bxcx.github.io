@@ -2,34 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://th3bxcx.github.io/tags/blog/</loc>
-    <lastmod>2024-06-22T23:10:00-07:00</lastmod>
-  </url><url>
-    <loc>https://th3bxcx.github.io/categories/blog/</loc>
-    <lastmod>2024-06-22T23:10:00-07:00</lastmod>
+    <loc>https://th3bxcx.github.io/posts/2024-06-23-regexp-comillas-inicio-y-fin/</loc>
+    <lastmod>2024-06-23T15:40:00-07:00</lastmod>
   </url><url>
     <loc>https://th3bxcx.github.io/categories/</loc>
-    <lastmod>2024-06-22T23:10:00-07:00</lastmod>
+    <lastmod>2024-06-23T15:40:00-07:00</lastmod>
   </url><url>
     <loc>https://th3bxcx.github.io/</loc>
-    <lastmod>2024-06-22T23:10:00-07:00</lastmod>
+    <lastmod>2024-06-23T15:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://th3bxcx.github.io/tags/github/</loc>
-    <lastmod>2024-06-22T23:10:00-07:00</lastmod>
+    <loc>https://th3bxcx.github.io/tags/emacs/</loc>
+    <lastmod>2024-06-23T15:40:00-07:00</lastmod>
+  </url><url>
+    <loc>https://th3bxcx.github.io/categories/emacs/</loc>
+    <lastmod>2024-06-23T15:40:00-07:00</lastmod>
   </url><url>
     <loc>https://th3bxcx.github.io/posts/</loc>
-    <lastmod>2024-06-22T23:10:00-07:00</lastmod>
-  </url><url>
-    <loc>https://th3bxcx.github.io/posts/2024-06-22-probando-github-pages/</loc>
-    <lastmod>2024-06-22T23:10:00-07:00</lastmod>
+    <lastmod>2024-06-23T15:40:00-07:00</lastmod>
   </url><url>
     <loc>https://th3bxcx.github.io/tags/</loc>
-    <lastmod>2024-06-22T23:10:00-07:00</lastmod>
+    <lastmod>2024-06-23T15:40:00-07:00</lastmod>
   </url><url>
-    <loc>https://th3bxcx.github.io/posts/2024-05-01-bienvenida/</loc>
-    <lastmod>2024-06-22T14:33:00-07:00</lastmod>
+    <loc>https://th3bxcx.github.io/tags/blog/</loc>
+    <lastmod>2024-06-23T14:24:00-07:00</lastmod>
+  </url><url>
+    <loc>https://th3bxcx.github.io/categories/blog/</loc>
+    <lastmod>2024-06-23T14:24:00-07:00</lastmod>
   </url><url>
     <loc>https://th3bxcx.github.io/tags/general/</loc>
+    <lastmod>2024-06-23T14:24:00-07:00</lastmod>
+  </url><url>
+    <loc>https://th3bxcx.github.io/posts/2024-06-23-guanabana-dulce-milagro-tropical/</loc>
+    <lastmod>2024-06-23T14:24:00-07:00</lastmod>
+  </url><url>
+    <loc>https://th3bxcx.github.io/tags/github/</loc>
+    <lastmod>2024-06-23T13:33:00-07:00</lastmod>
+  </url><url>
+    <loc>https://th3bxcx.github.io/posts/2024-06-23-probando-github-pages/</loc>
+    <lastmod>2024-06-23T13:33:00-07:00</lastmod>
+  </url><url>
+    <loc>https://th3bxcx.github.io/posts/2024-06-22-bienvenida/</loc>
     <lastmod>2024-06-22T14:33:00-07:00</lastmod>
   </url><url>
     <loc>https://th3bxcx.github.io/manifest/index.json</loc>

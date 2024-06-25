@@ -5,16 +5,72 @@
     <description>Recent content in Posts on De tocho morocho!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Jun 2024 23:10:00 -0700</lastBuildDate><atom:link href="https://th3bxcx.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><icon>https://th3bxcx.github.io/logo.svg</icon>
+    <lastBuildDate>Sun, 23 Jun 2024 15:40:00 -0700</lastBuildDate><atom:link href="https://th3bxcx.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><icon>https://th3bxcx.github.io/logo.svg</icon>
+    
+    
+    <item>
+      <title>Añandiendo texto al inicio y al final de varias líneas.</title>
+      <link>https://th3bxcx.github.io/posts/2024-06-23-regexp-comillas-inicio-y-fin/</link>
+      <pubDate>Sun, 23 Jun 2024 15:40:00 -0700</pubDate>
+      
+      <guid>https://th3bxcx.github.io/posts/2024-06-23-regexp-comillas-inicio-y-fin/</guid>
+      <description><![CDATA[<p>¡Tenía un problema! Debía agregar comillas dobles &lsquo;&quot;&rsquo; al inicio y al final de 120 líneas diferentes, por lo que no
+debería ser una tarea manual. Para ello, tuve que utilizar las expresiones regulares (regexp).</p>
+<h2 id="para-agregar-texto-al-inicio-de-cada-línea">Para agregar texto al inicio de cada línea:</h2>
+<p>Tenemos dos opciones:</p>
+<ul>
+<li>Si se hace en un buffer:</li>
+</ul>
+<p>Presiona <code>M-&lt;</code> para ir al establecer una marca al inicio.</p>
+<ul>
+<li>Si se hace en una región:</li>
+</ul>
+<p>Presiona  <code>C-SPC</code> al principio de la primera línea.
+Por último:
+<code>M-x</code> replace-regexp RET ^ RET TuTexto RET&quot;=, para agregar &lsquo;<strong>TuTexto</strong>&rsquo;.</p>
+<h2 id="en-una-región-usando-string-insert-rectangle-dot">En una región, usando <code>string-insert-rectangle</code>.</h2>
+<p>Establecer la marca con <code>C-SPC</code> al inicio de la primer línea, mueve el cursor al final de la última línea, y usa <code>M-x string-insert-rectangle RET</code> o <code>C-x r t</code>, luego ingresa el texto que deseas añadir y <code>RET</code>-</p>
+<h2 id="en-un-buffer-completo-dot">En un buffer completo.</h2>
+<p><code>C-x h</code> para seleccionar todo el buffer.
+<code>M-x string-insert-rectangle RET</code> o <code>C-x r t</code>
+Ingresa el texto que deseas añadir, y luego <code>RET</code>.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Guanábana, dulce milagro tropical</title>
+      <link>https://th3bxcx.github.io/posts/2024-06-23-guanabana-dulce-milagro-tropical/</link>
+      <pubDate>Sun, 23 Jun 2024 14:24:00 -0700</pubDate>
+      
+      <guid>https://th3bxcx.github.io/posts/2024-06-23-guanabana-dulce-milagro-tropical/</guid>
+      <description><![CDATA[<p>El día de ayer, 22 de junio del 2024, mi madre preparó agua fresca de guanábana. Según mis registros históricos, mi
+abuela, la madre de mi mamá, también la preparaba para la comida. Yo recuerdo que nunca me gustó el sabor de la fruta,
+así que evitaba comerla. Evitaba tomarla porque mi abuela le dejaba la semilla, y la textura de la pulpa me era
+desagradeble.
+Hoy, tras más de 40 años, la volví a probar. Tenía cierto recelo de hacerlo, pero al primer sorbo, detecté ese sabor
+ácido y dulce la fruta que me hizo volar. La bebida no traía semillas, la pulpa se había licuado un poco, y esa amalgama
+de textura y sabor&hellip; Wow!!!
+Si tieneen oportunidad de probarla, no lo dejen pasar. Es una de esas frutas ricas que tenemos en el trópico y que, con
+esta nueva visión, puedo decir que es un manjar de los dioses.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><img src="./static/images/guanabana-fruta.jpg" alt="">
+P.D. La fruta me trae buenos recuerdos de mi abuela materna&hellip; Extraño sus cuidados!!!</p>
+]]></description>
+      
+    </item>
+    
     
     
     <item>
       <title>Probando github pages</title>
-      <link>https://th3bxcx.github.io/posts/2024-06-22-probando-github-pages/</link>
-      <pubDate>Sat, 22 Jun 2024 23:10:00 -0700</pubDate>
+      <link>https://th3bxcx.github.io/posts/2024-06-23-probando-github-pages/</link>
+      <pubDate>Sun, 23 Jun 2024 13:33:00 -0700</pubDate>
       
-      <guid>https://th3bxcx.github.io/posts/2024-06-22-probando-github-pages/</guid>
-      <description><![CDATA[<p>Probando GitHub!</p>
+      <guid>https://th3bxcx.github.io/posts/2024-06-23-probando-github-pages/</guid>
+      <description><![CDATA[<p>Probando GitHub Pages!</p>
 ]]></description>
       
     </item>
@@ -23,12 +79,19 @@
     
     <item>
       <title>Bienvenida</title>
-      <link>https://th3bxcx.github.io/posts/2024-05-01-bienvenida/</link>
+      <link>https://th3bxcx.github.io/posts/2024-06-22-bienvenida/</link>
       <pubDate>Sat, 22 Jun 2024 14:33:00 -0700</pubDate>
       
-      <guid>https://th3bxcx.github.io/posts/2024-05-01-bienvenida/</guid>
+      <guid>https://th3bxcx.github.io/posts/2024-06-22-bienvenida/</guid>
       <description><![CDATA[<p>Hola, bienvenidos a mi blog!
 Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que esta se la definitiva.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<figure><img src="./static/images/nopal.png"
+    alt="Figura 1: Un nopal, en honor a la Ficurinia"><figcaption>
+      <p><!-- raw HTML omitted -->Figura 1: <!-- raw HTML omitted -->Un nopal, en honor a la Ficurinia</p>
+    </figcaption>
+</figure>
+
 ]]></description>
       
     </item>

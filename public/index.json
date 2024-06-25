@@ -24,8 +24,16 @@
         
         
     
-    "articles": [{"date":"2024-06-22","image":"","imageAlt":"","link":"https://th3bxcx.github.io/posts/2024-06-22-probando-github-pages/","summary":"Probando GitHub!","tags":["blog","github"],"title":"Probando github pages"},{"date":"2024-06-22","image":"","imageAlt":"","link":"https://th3bxcx.github.io/posts/2024-05-01-bienvenida/","summary":"Hola, bienvenidos a mi blog! Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que esta se la definitiva.","tags":["blog","general"],"title":"Bienvenida"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://th3bxcx.github.io/manifest/index.json","summary":"","tags":[],"title":"Manifest"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://th3bxcx.github.io/search/","summary":"","tags":[],"title":"Search"}],
-    "test": "Probando github pages   Bienvenida   Manifest   Search   ",
+        
+        
+        
+    
+        
+        
+        
+    
+    "articles": [{"date":"2024-06-23","image":"","imageAlt":"","link":"https://th3bxcx.github.io/posts/2024-06-23-regexp-comillas-inicio-y-fin/","summary":"¡Tenía un problema! Debía agregar comillas dobles \u0026lsquo;\u0026quot;\u0026rsquo; al inicio y al final de 120 líneas diferentes, por lo que no debería ser una tarea manual. Para ello, tuve que utilizar las expresiones regulares (regexp).\nPara agregar texto al inicio de cada línea: Tenemos dos opciones:\nSi se hace en un buffer: Presiona M-\u0026lt; para ir al establecer una marca al inicio.\nSi se hace en una región: Presiona C-SPC al principio de la primera línea.","tags":["emacs"],"title":"Añandiendo texto al inicio y al final de varias líneas."},{"date":"2024-06-23","image":"","imageAlt":"","link":"https://th3bxcx.github.io/posts/2024-06-23-guanabana-dulce-milagro-tropical/","summary":"El día de ayer, 22 de junio del 2024, mi madre preparó agua fresca de guanábana. Según mis registros históricos, mi abuela, la madre de mi mamá, también la preparaba para la comida. Yo recuerdo que nunca me gustó el sabor de la fruta, así que evitaba comerla. Evitaba tomarla porque mi abuela le dejaba la semilla, y la textura de la pulpa me era desagradeble. Hoy, tras más de 40 años, la volví a probar.","tags":["blog","general"],"title":"Guanábana, dulce milagro tropical"},{"date":"2024-06-23","image":"","imageAlt":"","link":"https://th3bxcx.github.io/posts/2024-06-23-probando-github-pages/","summary":"Probando GitHub Pages!","tags":["blog","github"],"title":"Probando github pages"},{"date":"2024-06-22","image":"","imageAlt":"","link":"https://th3bxcx.github.io/posts/2024-06-22-bienvenida/","summary":"Hola, bienvenidos a mi blog! Sí, el nuevo. Soy medio vago y seguido cambio de url y de contenido. Espero que esta se la definitiva.\nFigura 1: Un nopal, en honor a la Ficurinia","tags":["blog","general"],"title":"Bienvenida"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://th3bxcx.github.io/manifest/index.json","summary":"","tags":[],"title":"Manifest"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://th3bxcx.github.io/search/","summary":"","tags":[],"title":"Search"}],
+    "test": "Añandiendo texto al inicio y al final de varias líneas.   Guanábana, dulce milagro tropical   Probando github pages   Bienvenida   Manifest   Search   ",
     "page": "1",
     "next": ""
 }

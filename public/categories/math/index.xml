@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Math on De tocho morocho!</title>
+    <link>http://localhost:1313/categories/math/</link>
+    <description>Recent content in Math on De tocho morocho!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://localhost:1313/categories/math/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Investigando para escribir Matemáticas y Latex en Org-Mode</title>
+      <link>http://localhost:1313/posts/2024-06-24-escribir-math-latex-orgmode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-06-24-escribir-math-latex-orgmode/</guid>
+      <description><![CDATA[<h2 id="qué-es-lo-que-quiero-hacer">¿Qué es lo que quiero hacer?</h2>
+<ul>
+<li>Escribir expresiones matemáticas.</li>
+<li>Mostrar los resultados con sage.</li>
+<li>Escribir en LaTeX.</li>
+<li>Exportar a PDF.</li>
+</ul>
+<h2 id="por-qué">¿Por qué?</h2>
+<ul>
+<li>Me gustan las matemáticas.</li>
+</ul>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -6,11 +6,6 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=7" />
 
-    
-        
-          <link href="https://th3bxcx.github.io/tags/general/index.xml" rel="alternate" type="application/rss+xml" title="De tocho morocho!" />
-          <link href="https://th3bxcx.github.io/tags/general/index.xml" rel="feed" type="application/rss+xml" title="De tocho morocho!" />
-        
     <link
     rel="icon"
     href='/favicon.png'
@@ -33,7 +28,7 @@
 
 <title>
         
-            General  &ndash;
+            Añandiendo texto al inicio y al final de varias líneas.  &ndash;
         
         De tocho morocho!
     </title>
@@ -48,35 +43,56 @@
 <meta name="author" content="BxCx" />
 
     
-        <meta name="description" content="Un lugar para escribir. Si aprendes algo, ya es ganancia!" />
+        <meta name="keywords" content='emacs' />
+    
+    
+        <meta name="description" content="Debía agregar comillas dobles &amp;lsquo;&amp;quot;&amp;rsquo; al inicio y al final de 120 líneas diferentes, por lo que no debería ser una tarea manual. Para ello, tuve que utilizar las expresiones regulares (regexp).
+Para agregar texto al inicio de cada línea: Tenemos dos opciones:
+Si se hace en un buffer: Presiona M-&amp;lt; para ir al establecer una marca al inicio.
+Si se hace en una región: Presiona C-SPC al principio de la primera línea." />
     
 
 <meta property="og:site_name"
     content='De tocho morocho!' />
 
-    <meta property="og:title"
-        content='De tocho morocho!' />
+    <meta property="og:title" content="Añandiendo texto al inicio y al final de varias líneas." />
+    <meta property="og:type" content="article" />
     
-        <meta property="og:description" content="Un lugar para escribir. Si aprendes algo, ya es ganancia!" />
+    <meta
+        property="article:author" content="BxCx" />
+    <meta
+        property="article:published_time"
+        content='2024-06-23T15:40:00Z-0700' />
     
-    <meta property="og:type" content="blog" />
+        
+            <meta property="article:tag" content="emacs" />
+        
+    
+    <meta property="og:url" content="https://th3bxcx.github.io/posts/2024-06-23-regexp-comillas-inicio-y-fin/" />
+    
+    
     <meta property="og:image"
-        content='https://th3bxcx.github.io/icon512.png' />
+        content="https://th3bxcx.github.io/icon512.png" />
+    
+        <meta property="og:description" content="¡Tenía un problema! Debía agregar comillas dobles &amp;lsquo;&amp;quot;&amp;rsquo; al inicio y al final de 120 líneas diferentes, por lo que no debería ser una tarea manual" />
+    
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:domain"
       content='3bxcx.github.io'
 />
-<meta property="twitter:url" content="https://th3bxcx.github.io/tags/general/" />
+<meta property="twitter:url" content="https://th3bxcx.github.io/posts/2024-06-23-regexp-comillas-inicio-y-fin/" />
 
 
-    <meta name="twitter:title"
-        content='De tocho morocho!' />
+    <meta name="twitter:title" content="Añandiendo texto al inicio y al final de varias líneas." />
     
-        <meta name="twitter:description" content="Un lugar para escribir. Si aprendes algo, ya es ganancia!" />
+    
     
     <meta name="twitter:image"
-        content='https://th3bxcx.github.io/icon512.png' />
+        content="https://th3bxcx.github.io/icon512.png" />
+    
+        <meta name="twitter:description" content="¡Tenía un problema! Debía agregar comillas dobles &amp;lsquo;&amp;quot;&amp;rsquo; al inicio y al final de 120 líneas diferentes, por lo que no debería ser una tarea manual" />
+    
 
 <link rel="manifest" href="/manifest/index.json" />
 </head>
@@ -175,43 +191,57 @@
 <div id="contentContainer">
                 <div id="content">
                     <main>
-    <h2>
+<article class="card single">
+    
+        <h1>Añandiendo texto al inicio y al final de varias líneas.</h1>
     
     
-    
-    
-        Etiqueta: #General
-    
-</h2>
-<ul class="list">
-    
-        
-            <li>
-                <div>
-                    <span class="date">
+        <p class="date">
+            <span title='Fecha'> </span>
     2024-06-23
 
-</span>
-                    <span>
-                        <a href="https://th3bxcx.github.io/posts/2024-06-23-guanabana-dulce-milagro-tropical/">Guanábana, dulce milagro tropical</a>
-                    </span>
-                </div>
-            </li>
-        
-            <li>
-                <div>
-                    <span class="date">
-    2024-06-22
-
-</span>
-                    <span>
-                        <a href="https://th3bxcx.github.io/posts/2024-06-22-bienvenida/">Bienvenida</a>
-                    </span>
-                </div>
-            </li>
-        
+</p>
     
+    
+    
+    
+    <div><p>¡Tenía un problema! Debía agregar comillas dobles &lsquo;&quot;&rsquo; al inicio y al final de 120 líneas diferentes, por lo que no
+debería ser una tarea manual. Para ello, tuve que utilizar las expresiones regulares (regexp).</p>
+<h2 id="para-agregar-texto-al-inicio-de-cada-línea">Para agregar texto al inicio de cada línea:</h2>
+<p>Tenemos dos opciones:</p>
+<ul>
+<li>Si se hace en un buffer:</li>
 </ul>
+<p>Presiona <code>M-&lt;</code> para ir al establecer una marca al inicio.</p>
+<ul>
+<li>Si se hace en una región:</li>
+</ul>
+<p>Presiona  <code>C-SPC</code> al principio de la primera línea.
+Por último:
+<code>M-x</code> replace-regexp RET ^ RET TuTexto RET&quot;=, para agregar &lsquo;<strong>TuTexto</strong>&rsquo;.</p>
+<h2 id="en-una-región-usando-string-insert-rectangle-dot">En una región, usando <code>string-insert-rectangle</code>.</h2>
+<p>Establecer la marca con <code>C-SPC</code> al inicio de la primer línea, mueve el cursor al final de la última línea, y usa <code>M-x string-insert-rectangle RET</code> o <code>C-x r t</code>, luego ingresa el texto que deseas añadir y <code>RET</code>-</p>
+<h2 id="en-un-buffer-completo-dot">En un buffer completo.</h2>
+<p><code>C-x h</code> para seleccionar todo el buffer.
+<code>M-x string-insert-rectangle RET</code> o <code>C-x r t</code>
+Ingresa el texto que deseas añadir, y luego <code>RET</code>.</p>
+</div>
+</article>
+
+    <hr />
+    <p class="articleTagsContainer">
+        <span> </span>
+        <strong>Etiquetas:</strong>
+        
+            <a
+                
+                href="/tags/emacs/">#emacs</a>
+        
+    </p>
+
+
+
+
 
 
                     </main><footer>

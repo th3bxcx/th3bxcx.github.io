@@ -5,13 +5,25 @@
     <description>Recent content in Tags on De tocho morocho!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Jun 2024 23:10:00 -0700</lastBuildDate><atom:link href="https://th3bxcx.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><icon>https://th3bxcx.github.io/logo.svg</icon>
+    <lastBuildDate>Sun, 23 Jun 2024 15:40:00 -0700</lastBuildDate><atom:link href="https://th3bxcx.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><icon>https://th3bxcx.github.io/logo.svg</icon>
+    
+    
+    <item>
+      <title>Emacs</title>
+      <link>https://th3bxcx.github.io/tags/emacs/</link>
+      <pubDate>Sun, 23 Jun 2024 15:40:00 -0700</pubDate>
+      
+      <guid>https://th3bxcx.github.io/tags/emacs/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
     
     
     <item>
       <title>Blog</title>
       <link>https://th3bxcx.github.io/tags/blog/</link>
-      <pubDate>Sat, 22 Jun 2024 23:10:00 -0700</pubDate>
+      <pubDate>Sun, 23 Jun 2024 14:24:00 -0700</pubDate>
       
       <guid>https://th3bxcx.github.io/tags/blog/</guid>
       <description><![CDATA[]]></description>
@@ -21,11 +33,11 @@
     
     
     <item>
-      <title>Github</title>
-      <link>https://th3bxcx.github.io/tags/github/</link>
-      <pubDate>Sat, 22 Jun 2024 23:10:00 -0700</pubDate>
+      <title>General</title>
+      <link>https://th3bxcx.github.io/tags/general/</link>
+      <pubDate>Sun, 23 Jun 2024 14:24:00 -0700</pubDate>
       
-      <guid>https://th3bxcx.github.io/tags/github/</guid>
+      <guid>https://th3bxcx.github.io/tags/general/</guid>
       <description><![CDATA[]]></description>
       
     </item>
@@ -33,11 +45,11 @@
     
     
     <item>
-      <title>General</title>
-      <link>https://th3bxcx.github.io/tags/general/</link>
-      <pubDate>Sat, 22 Jun 2024 14:33:00 -0700</pubDate>
+      <title>Github</title>
+      <link>https://th3bxcx.github.io/tags/github/</link>
+      <pubDate>Sun, 23 Jun 2024 13:33:00 -0700</pubDate>
       
-      <guid>https://th3bxcx.github.io/tags/general/</guid>
+      <guid>https://th3bxcx.github.io/tags/github/</guid>
       <description><![CDATA[]]></description>
       
     </item>
